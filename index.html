@@ -31,10 +31,11 @@
 </head>
 
 <body>
-  <header class="ml-0 md:ml-40 mr-0 md:mr-40 mt-1 md:mt-7">
+  <!-- <header class="ml-0 md:ml-40 mr-0 md:mr-40 mt-1 md:mt-7"> -->
+  <header class="bg-base-100">
 
     <!-- NAVBAR starts -->
-    <nav class="navbar bg-base-100 flex justify-between items-center font-poppins ">
+    <nav class="max-w-7xl mx-auto navbar flex justify-between items-center font-poppins ">
       <a class="ml-0 pl-0 font-extrabold text-3xl">Bikerz Zone</a>
       <div class="navbar-center hidden md:flex items-center">
         <ul class="menu menu-horizontal px-1 text-base font-semibold">
@@ -50,10 +51,10 @@
     <!-- NAVBAR ends -->
 
     <!--Carousel banner starts-->
-    <section class="mt-10 mb-10 h-auto font-poppins carousel w-full">
+    <section class="max-w-7xl mx-auto mt-10 mb-10 font-poppins carousel">
 
       <!-- slide-1 starts -->
-      <div id="slide1" class="h-auto carousel-item relative w-full rounded">
+      <div id="slide1" class="carousel-item relative rounded">
         <div class="hero min-h-screen bg-[#e76f511a] pl-20 pr-20 pt-0 pb-0">
           <div class="hero-content flex-col lg:flex-row-reverse">
             <img src="images/slider/bike1.png" class="max-w-sm w-full" />
@@ -138,7 +139,7 @@
     </section>
     <!-- Carousel banner ends -->
   </header>
-  <main class="ml-0 md:ml-40 mr-0 md:mr-40 mt-1 md:mt-7">
+  <main class="max-w-7xl mx-auto mt-1 md:mt-7">
     <!-- Featured bikes section starts -->
     <section class="font-poppins mt-16 mb-16">
       <div class="text-center flex flex-col space-y-4 w-full">
@@ -160,14 +161,14 @@
             <figure class="p-5"><img src="images/others/feature-bike.png" alt="Shoes" /></figure>
           </div> -->
           <!-- Card-1 Ends -->
-          <div class="w-full md:w-1/3  mt-10">
-            <img class="w-full" src="images/others/feature-bike.png" alt="">
+          <div class="w-full md:w-1/3  mt-10 flex justify-start">
+            <img class="w-3/4" src="images/others/feature-bike.png" alt="">
           </div>
-          <div class="w-full md:w-1/3 mt-10">
-            <img class="w-full" src="images/others/feature-bike.png" alt="">
+          <div class="w-full mx-auto md:w-1/3 mt-10 flex justify-center">
+            <img class="w-3/4" src="images/others/feature-bike.png" alt="">
           </div>
-          <div class="w-full md:w-1/3 mt-10">
-            <img class="w-full" src="images/others/feature-bike.png" alt="">
+          <div class="w-full mx-auto md:w-1/3 mt-10 flex justify-end">
+            <img class="w-3/4" src="images/others/feature-bike.png" alt="">
           </div>
         </div>
       </div>
@@ -175,7 +176,7 @@
     <!-- Featured bikes section ends -->
 
     <!-- Latest news section satrts-->
-    <section class="mt-16 mb-16 pt-16">
+    <section class="mt-16 mb-16">
       <h2 class="font-black text-4xl text-center pb-16">Latest News</h2>
       <div class="flex flex-col lg:flex-row justify-between gap-6">
         <!-- card-1 Starts-->
@@ -234,7 +235,7 @@
     <!-- Latest news section ends-->
 
     <!-- Happy Client section starts -->
-    <section class="mt-16 mb-16 pt-16">
+    <section class="mt-16 mb-16">
       <h2 class="font-black text-4xl text-center pb-16">Happy <span class="text-[#E76F51]"> Clients says</span></h2>
       <div class="flex flex-col lg:flex-row justify-around gap-9">
         <!-- Start of a Happy client card - 1 -->
@@ -314,11 +315,11 @@
     <!-- Happy Client section Ends -->
 
     <!-- Happy Client section starts -->
-    <section class="mt-16 mb-16 pt-16 font-inter">
+    <section class="mt-16 mb-16 font-inter">
       <h2 class="font-black text-4xl text-center pb-16">Frequently Asked <span class="text-[#E76F51]"> Questions </span>
       </h2>
       <!-- Imported Hero from daisy khala -->
-      <div class="hero min-h-screen">
+      <div class="hero">
         <div class="hero-content flex-col lg:flex-row">
           <img src="images/others/faq.png" class="max-w-sm" />
           <div class="flex flex-col gap-2">
@@ -373,8 +374,8 @@
     <!-- FAQ part Ends -->
   </main>
   <!-- Footer from daisyUI -->
-  <footer class="bg-black font-manrope text-white text-xs font-normal pt-16 pb-24">
-    <div class="ml-1 md:ml-40 mr-1 md:mr-40 mt-2 md:mt-12 md-4 md:mb-16">
+  <footer class="bg-black pt-16 pb-24">
+    <div class="max-w-7xl mx-auto mt-2 md:mt-12 md-4 md:mb-16 font-manrope text-white text-xs font-normal ">
       <!-- All footer Items Flex Row divide 2 part equal to flex-1 for large device-->
       <div class="flex flex-col md:flex-row justify-between space-y-6">
         <!-- footer Left Flex Column-->
